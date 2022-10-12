@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 48px;
+}
+.header > p {
+    color: #ED6436;
+    font-size: 36px;
+    font-weight: 550;
+}
+.header > p > span {
+    font-size: 36px;
+    color: black;
+}
+.header-info {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+}
+.header-info-items > h6 {
+    margin-bottom: 8px;
+}
+.header-info-items > p {
+    font-size: 16px;
+}
+.ruler {
+    background-color: #dedede;
+    width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav {
+    background-color: black;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-main ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.nav-main ul li {
+    padding: 30px 20px;
+    color: white;
+    cursor: pointer;
+}
+.nav-main ul li:first-child {
+    color: black;
+    background-color: #ED6436;
+}
+.nav-main ul li:hover {
+    color: black;
+    background-color: #ED6436;
+}
+.nav-btn {
+    display: flex;
+    color: white;
+    align-items: center;
+    /* padding: 10px; */
+    /* background-color: #ED6436; */
+}
+.nav-btn span {
+    padding: 10px 20px;
+    background-color: #ED6436;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.main-pet-ads {
+    background-image: url(./src/images/hero.jpg);
+    width: 100%;
+    height:745px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-pet-text {
+    text-align: center;
+    color: white;
+}
+.main-pet-text h6 {
+    font-size: 28px;
+}
+.main-pet-text h1 {
+    font-size: 72px;
+}
+.main-pet-text p {
+    font-size: 21px;
+}
+.pet-book-btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.pet-book-btn ul {
+    list-style: none;
+}
+.pet-book-btn ul li {
+    display: inline-block;
+    padding: 15px  30px;
+    background-color: #ED6436;
+    margin: 10px;
+    border-radius: 15px;
+}
